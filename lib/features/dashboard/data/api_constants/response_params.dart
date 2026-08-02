@@ -1,0 +1,35 @@
+class ResponseParams {
+  static const id = 'id';
+  static const title = 'title';
+  static const description = 'description';
+  static const category = 'category';
+  static const price = 'price';
+  static const discountPercentage = 'discountPercentage';
+  static const rating = 'rating';
+  static const stock = 'stock';
+  static const brand = 'brand';
+  static const sku = 'sku';
+  static const weight = 'weight';
+  static const dimensions = 'dimensions';
+  static const width = 'width';
+  static const height = 'height';
+  static const depth = 'depth';
+  static const warrantyInformation = 'warrantyInformation';
+  static const shippingInformation = 'shippingInformation';
+  static const availabilityStatus = 'availabilityStatus';
+  static const reviews = 'reviews';
+  static const ratingValue = 'rating';
+  static const comment = 'comment';
+  static const date = 'date';
+  static const reviewerName = 'reviewerName';
+  static const reviewerEmail = 'reviewerEmail';
+  static const returnPolicy = 'returnPolicy';
+  static const minimumOrderQuantity = 'minimumOrderQuantity';
+  static const meta = 'meta';
+  static const createdAt = 'createdAt';
+  static const updatedAt = 'updatedAt';
+  static const barcode = 'barcode';
+  static const qrCode = 'qrCode';
+  static const images = 'images';
+  static const thumbnail = 'thumbnail';
+}
