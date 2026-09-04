@@ -17,13 +17,14 @@ class CategoryCard extends StatelessWidget {
         color: Colors.white,
         // borderRadius: BorderRadius.circular(8),
         // elevation: 2,
-        child: InkWell(
-          borderRadius: BorderRadius.circular(8),
+        child: GestureDetector(
+          // borderRadius: BorderRadius.circular(8),
           onTap: onTap,
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             // spacing: 12,
             crossAxisAlignment: CrossAxisAlignment.center,
-            mainAxisSize: MainAxisSize.min, // ✅ important
+            // mainAxisSize: MainAxisSize.min, // ✅ important
 
             children: [
               // Image area
