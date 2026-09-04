@@ -5,4 +5,5 @@ abstract class CategoryEvent extends Equatable {
   List<Object?> get props => [];
 }
 
-class GetCategoriesEvent extends CategoryEvent {}   // 🔥 fired when loading categories
+class GetCategoriesEvent
+    extends CategoryEvent {} // 🔥 fired when loading categories
